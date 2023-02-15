@@ -105,4 +105,52 @@ li:hover {
 .buttom:hover {
     background-color: white;
     color: black;
+    cursor: pointer;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.banner-1 {
+    background-image: url('https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/09/Monkey-D-Luffy-One-Piece.webp?fit=1240%2C1016&ssl=1');
+}
+
+.banner-2 {
+    background-image: url('https://i.pinimg.com/originals/5c/62/cd/5c62cd63a940faa75549cd1a4015a461.jpg');
+}
+.banner-3 {
+    background-image: url('http://pm1.narvii.com/6278/46d976910b261a600fa78ca382d193eee9de37cf_00.jpg');
 }
