@@ -154,3 +154,27 @@ li:hover {
 .banner-3 {
     background-image: url('http://pm1.narvii.com/6278/46d976910b261a600fa78ca382d193eee9de37cf_00.jpg');
 }
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
