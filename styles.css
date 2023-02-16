@@ -180,8 +180,49 @@ span {
 }
 
 @media(max-width: 768px){
-    .footer-navigation{
+
+    i#burguer {
+        background-color: black;
+        color: white;
         display: block;
+        text-align: left;
+        padding: 10px;
+    }
+
+    i#burguer:hover {
+        background-color: black;
+        color: white;
+    }
+
+    #itens ul li {
+        display: block;
+    }
+
+    nav#itens {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #222;
+        padding: 10px;
+    }
+    
+    nav#itens ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav#itens li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    nav#itens a {
+        color: #fff;
+        text-decoration: none;
     }
 
     nav {
