@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>One Piece</title>
+    <link rel="stylesheet" href="./fotos.css">
 </head>
 <body>
-    fotos
+    <header>
+        <img id="logo" src="./one-piece-logo-min.jpg"/>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="itens">
+            <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./contato.html">
+                        <li>Contato</li>
+                    </a>
+                    <a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a>
+                    <a href="./comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+        </nav>
+    </header>
+
+    <div id="banner"></div>
+    
+    <div class="fotos-container">
+        <div class="fotos">
+            <div class="space foto-1"></div>
+            <div class="space foto-2"></div>
+            <div class="space foto-3"></div>
+            <div class="space foto-4"></div>
+            <div class="space foto-5"></div>
+            <div class="space foto-6"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./one-piece-logo-min.jpg">
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por Morosetti</span>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
